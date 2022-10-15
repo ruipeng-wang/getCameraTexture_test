@@ -1,0 +1,1 @@
+<button bindtap="openar">打开AR</button>

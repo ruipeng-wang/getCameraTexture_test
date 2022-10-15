@@ -1,0 +1,13 @@
+<div style="width: 100vw; height: 100vh; background-color: black;">
+  <canvas wx:if="{{!destroyed}}" type="webgl" id="webgl" style="width: 100vw; height: 100vh; z-index: 99; position: absolute;top:0;left:0;" bindtouchend="onTouchEnd"></canvas>
+</div>
+<view class="loading-container" wx:if="{{loading}}">
+  <view class="loading-center">
+    <view class="lds-ellipsis">
+      <view></view>
+      <view></view>
+      <view></view>
+      <view></view>
+    </view>
+  </view>
+</view>
